@@ -32,8 +32,9 @@ var greeting string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "go-cli-hello-world",
-	Short: "Display 'Hello World!'",
+	Use:     "go-cli-hello-world",
+	Version: "0.1.0",
+	Short:   "Display 'Hello World!'",
 	Long: `Display "'Hello World!'
 You can change the greeting from 'Hello'`,
 	Run: func(cmd *cobra.Command, args []string) {
