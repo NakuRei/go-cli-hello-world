@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:1.20-bullseye
+FROM golang:1.21-bullseye
 
 ARG USERNAME=user
 
